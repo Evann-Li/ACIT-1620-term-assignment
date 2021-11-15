@@ -8,6 +8,29 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="mySidenav" class="sidenav">
+        <h1><a href = "home.html">Contacts</a></h1>
+        <a href="javascript:void(0)" class="closebtn"></a>
+
+        <ul><a href="createContact.html">Create New Contact</a> </ul>
+        <ul><a href="existingContact.html">Show Favourites</a> </ul>
+    </div>
+
+    <form method="get">
+        <img src="images/contact.png">
+        <div></div>
+        <br></br>
+
+        <input type="text" id="ContactName" value="Contact Name" width="40" height="40"><br><br>
+        <input type="text" id="ContactPhone" value="Contact Phone" width="40" height="40">
+        <input type="button" value="+"><br><br>
+        <input type="text" id="ContactAddress" value="Contact Address">
+        <input type="button" value="+"><br><br>
+        <input type="text" id="ContactEmail" value="Contact Email" >
+        <input type="button" value="+"><br><br>
+        <input type="submit" value="Save Contact">
+        <input type="submit" id="cancel" value="Cancel">
+    </form>
     
 </body>
 </html>
