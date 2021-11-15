@@ -40,9 +40,9 @@ body {
     height: 100px
 }
 
-form{
+.inputContact{
     padding-left: 500px;
-    padding-top: 100px;
+    padding-top: 100px
     
 }
 
@@ -51,4 +51,25 @@ img{
     border-radius: 100%;
     width: 100px;
     height: 100px;
+}
+
+.favourites{
+    padding-left: 550px;
+    padding-top: 50px;
+    font-family: "Mohave";
+}
+
+.name{
+    font-size: 25px;
+    
+}
+
+.info{
+    font-size: 20px;
+}
+
+.edit{
+    font-family: "Mohave";
+    padding-left: 550px;
+    padding-top: 20px;
 }
