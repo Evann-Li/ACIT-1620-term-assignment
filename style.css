@@ -73,3 +73,20 @@ img{
     padding-left: 550px;
     padding-top: 20px;
 }
+
+@media (max-width: 900px){
+    .sidenav{
+        height: 200px;
+    }
+    .container{
+        padding-top: 250px;
+    }
+    .inputContact{
+        padding-top: 250px;
+        padding-left: 75px;
+    }
+    .favourites{
+        padding-top: 250px;
+        padding-left: 50px;
+    }
+}
