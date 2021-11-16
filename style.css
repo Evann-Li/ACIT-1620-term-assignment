@@ -74,6 +74,26 @@ img{
     padding-top: 20px;
 }
 
+.editbtn{
+    background-color: #31748f;
+}
+
+.close{
+    background-color: #ebbcba;
+}
+
+.plusbtn{
+    background-color: #6e6a86;
+}
+
+.saveCnt{
+    background-color: #31748f;
+}
+
+.cancel{
+    background-color: #ebbcba;
+}
+
 @media (max-width: 900px){
     .sidenav{
         height: 200px;
